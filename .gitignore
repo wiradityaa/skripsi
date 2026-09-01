@@ -1,0 +1,34 @@
+# O*NET source data and derived data stores
+data/raw/
+data/interim/
+data/processed/
+
+# Python environments, caches, and build artifacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local model/cache files
+.cache/
+models/
+**/all-MiniLM-L6-v2/
+
+# Large or reproducible visual/matrix outputs
+outputs/figures/
+outputs/tables/*
+!outputs/tables/data_audit.json
+!outputs/tables/related_metrics.csv
+!outputs/tables/run_metadata.json
+!outputs/tables/top3_focus.csv
+!outputs/tables/coverage_complete_case.csv
+
+# Tool checkouts present in the workspace, not part of this study
+graphify/
+ponytail/
+

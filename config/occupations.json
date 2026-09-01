@@ -1,0 +1,15 @@
+{
+  "core": [
+    "15-2051.00",
+    "15-2051.01",
+    "15-1242.00",
+    "15-1243.00",
+    "15-1243.01",
+    "15-2031.00",
+    "15-2041.00"
+  ],
+  "sensitivity": ["15-2051.02"],
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "seed": 42
+}

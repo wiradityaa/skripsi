@@ -1,0 +1,18 @@
+{
+  "coverage_main": "complete-case",
+  "coverage_sensitivity": "pairwise-complete",
+  "scale_filter": "IM",
+  "normalization": "(x - 1) / (5 - 1)",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "seed": 42,
+  "raw_sha256": {
+    "content_model_reference.csv": "370033744006dbd5df048431d42a402f6741a00a229b6d0f4e4f4249b6399c04",
+    "essential_skills.csv": "68c4d31d8c55077238395dca40cc4e6d32e6a608b5474bb8264b1f98ae415bd7",
+    "knowledge.csv": "88092e17d16096cdebe292fee4389deb460edda24ae8b4637212c69c71562f55",
+    "occupation_data.csv": "a09eae1d6609686e44e05b7290993a1c8b523d8ca224bc0eedc194c855c3ee02",
+    "related_occupations.csv": "fc2a719a21dbd3805ddfb6d510c013c9e0c366b46273701b88c683a50ef3fe6b",
+    "scales_reference.csv": "bcba23858ce21ecaacbde303a8993e35d46724b4afb8c9ec2b10e04f42adcfc9",
+    "transferable_skills.csv": "f17d0419e818a3bf2f55076510c76c4aef01cc8f5aee2670d2f44f6f44ac60f7"
+  }
+}
